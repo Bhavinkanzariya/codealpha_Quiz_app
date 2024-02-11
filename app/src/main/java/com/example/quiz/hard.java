@@ -42,7 +42,7 @@ public class hard extends AppCompatActivity {
         timer = findViewById(R.id.timer);
         question_number = findViewById(R.id.question_number);
 
-        quizLists.addAll(QuizData.getQuiz());
+        quizLists.addAll(QuizData.gethard());
 
         setText();
         question_number.setText(String.valueOf(currenrposition+1));

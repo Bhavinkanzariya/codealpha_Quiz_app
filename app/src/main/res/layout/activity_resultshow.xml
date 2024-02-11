@@ -26,6 +26,7 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="250dp"
                 android:layout_height="100dp"
+                android:backgroundTint="#118"
                 app:cardCornerRadius="200dp">
 
                 <TextView
@@ -130,6 +131,7 @@
         android:layout_width="300dp"
         android:layout_height="60dp"
         app:cardCornerRadius="30dp"
+        android:backgroundTint="#E53925"
         android:layout_marginLeft="-300dp"
         android:layout_marginTop="530dp">
         <LinearLayout
@@ -141,7 +143,6 @@
                 android:id="@+id/play"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:backgroundTint="#E53925"
                 android:gravity="center"
                 android:text="Play again"
                 android:textSize="40dp"
@@ -155,6 +156,7 @@
         android:layout_width="300dp"
         android:layout_height="60dp"
         app:cardCornerRadius="30dp"
+        android:backgroundTint="#E53925"
         android:layout_marginLeft="-300dp"
         android:layout_marginTop="600dp">
         <LinearLayout
